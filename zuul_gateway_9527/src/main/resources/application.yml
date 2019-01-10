@@ -1,0 +1,18 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: aigou-zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+zuul:
+  routes:
+    myPlat.serviceId: aigou-plat
+    myPlat.path: /plat/**  #相当于取别名，plat=aigou-plat
+  ignored-services:  "*" #可能会有多个服务像aigou-plat这样的，忽略掉，直接走别名就可以访问所有服务，不用一个个写
+  prefix:  /services #前缀，所有通过网关访问服务都必须加这个前缀
