@@ -1,11 +1,2 @@
 server:
   port: 8001
-spring:
-  application:
-    name: aigou-plat #注册显示的名字
-eureka:
-  client:
-    service-url:
-     defaultZone: http://localhost:7001/eureka #告诉服务提供者要把服务注册到哪儿
-  instance:
-    prefer-ip-address: true #设置显示的ip为本地ip，不显示计算机名

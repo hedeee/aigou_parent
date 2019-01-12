@@ -13,6 +13,9 @@
         <module>zuul_gateway_9527</module>
         <module>basic_parent</module>
         <module>plat_parent</module>
+        <module>config_server_8848</module>
+        <module>aigou_generate</module>
+        <module>product_parent</module>
     </modules>
 
     <properties>
