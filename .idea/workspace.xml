@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27ff7da7-173a-418e-99fd-7dfdb91eda98" name="Default" comment="前后端分离架构后的联调，mybatisPlus的集成">
+    <list default="true" id="27ff7da7-173a-418e-99fd-7dfdb91eda98" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -554,7 +554,7 @@
       <workItem from="1547192713630" duration="2915000" />
       <workItem from="1547254716263" duration="4825000" />
       <workItem from="1547270056755" duration="1499000" />
-      <workItem from="1547289672593" duration="12007000" />
+      <workItem from="1547289672593" duration="12025000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下">
       <created>1547100505261</created>
@@ -584,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547311682119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="前后端分离架构后的联调，mybatisPlus的集成">
+      <created>1547311781442</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547311781442</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -614,7 +621,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42336000" />
+    <option name="totallyTimeSpent" value="42354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
