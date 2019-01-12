@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ff7da7-173a-418e-99fd-7dfdb91eda98" name="Default" comment="前后端分离架构后的联调，mybatisPlus的集成">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generate_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_support_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_11_0_201803080745_r.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_generate/aigou_generate.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_generate/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_generate/src/main/java/org/hedee/aigou/GenteratorCode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_generate/src/main/resources/aigou_product.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_generate/src/main/resources/templates/ClientHystrixFallbackFactory.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_generate/src/main/resources/templates/client.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_generate/src/main/resources/templates/controller.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_generate/src/main/resources/templates/query.java.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config_server_8848/config_server_8848.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config_server_8848/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config_server_8848/src/main/java/org/hedee/aigou/ConfigServerApplication_8848.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config_server_8848/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/plat_parent/plat_service_8001/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_interface/product_interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_parent.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/product_service_8002.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/org/hedee/aigou/ProductService_8002.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/org/hedee/aigou/config/MybatisPlusConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/org/hedee/aigou/config/Swagger2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/test/java/org/hedee/aigou/service/IUserServiceTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/GlobalCorsConfig.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/basic_parent/basic_util/target/classes/org/hedee/aigou/query/BaseQuery.class" afterPath="$PROJECT_DIR$/basic_parent/basic_util/target/classes/org/hedee/aigou/query/BaseQuery.class" />
-      <change beforePath="$PROJECT_DIR$/plat_parent/plat_service_8001/plat_service_8001.iml" afterPath="$PROJECT_DIR$/plat_parent/plat_service_8001/plat_service_8001.iml" />
-      <change beforePath="$PROJECT_DIR$/plat_parent/plat_service_8001/pom.xml" afterPath="$PROJECT_DIR$/plat_parent/plat_service_8001/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/plat_parent/plat_service_8001/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/plat_parent/plat_service_8001/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/DocumentationConfig.java" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/DocumentationConfig.java" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/application.yml" afterPath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -289,6 +229,11 @@
             <path>
               <item name="aigou_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="aigou_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aigou_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aigou_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product_parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -609,7 +554,7 @@
       <workItem from="1547192713630" duration="2915000" />
       <workItem from="1547254716263" duration="4825000" />
       <workItem from="1547270056755" duration="1499000" />
-      <workItem from="1547289672593" duration="11691000" />
+      <workItem from="1547289672593" duration="11910000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下">
       <created>1547100505261</created>
@@ -618,7 +563,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547100505261</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="前后端分离架构后的联调，mybatisPlus的集成">
+      <created>1547311482164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547311482164</updated>
+    </task>
+    <task id="LOCAL-00003" summary="前后端分离架构后的联调，mybatisPlus的集成">
+      <created>1547311655768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547311655768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -648,7 +607,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42020000" />
+    <option name="totallyTimeSpent" value="42239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -698,7 +657,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试一下" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试一下" />
+    <MESSAGE value="前后端分离架构后的联调，mybatisPlus的集成" />
+    <option name="LAST_COMMIT_MESSAGE" value="前后端分离架构后的联调，mybatisPlus的集成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
