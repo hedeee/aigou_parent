@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ff7da7-173a-418e-99fd-7dfdb91eda98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/bootstrap.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou_generate/src/main/resources/templates/controller.java.vm" afterPath="$PROJECT_DIR$/aigou_generate/src/main/resources/templates/controller.java.vm" />
-      <change beforePath="$PROJECT_DIR$/config_server_8848/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/config_server_8848/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/plat_parent/plat_service_8001/target/classes/application.yml" afterPath="$PROJECT_DIR$/plat_parent/plat_service_8001/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_interface/src/main/java/org/hedee/aigou/domain/User.java" afterPath="$PROJECT_DIR$/product_parent/product_interface/src/main/java/org/hedee/aigou/domain/User.java" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/src/test/java/org/hedee/aigou/service/IUserServiceTest.java" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/test/java/org/hedee/aigou/service/IUserServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/pom.xml" afterPath="$PROJECT_DIR$/zuul_gateway_9527/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/GlobalCorsConfig.java" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/GlobalCorsConfig.java" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/SwaggerConfig.java" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/SwaggerConfig.java" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/application.yml" afterPath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/application.yml" />
       <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/org/hedee/aigou/config/DocumentationConfig.class" afterPath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/org/hedee/aigou/config/DocumentationConfig.class" />
       <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/org/hedee/aigou/config/SwaggerConfig.class" afterPath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/org/hedee/aigou/config/SwaggerConfig.class" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/zuul_gateway_9527.iml" afterPath="$PROJECT_DIR$/zuul_gateway_9527/zuul_gateway_9527.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -730,7 +720,7 @@
       <workItem from="1547254716263" duration="4825000" />
       <workItem from="1547270056755" duration="1499000" />
       <workItem from="1547289672593" duration="12087000" />
-      <workItem from="1547341434746" duration="15483000" />
+      <workItem from="1547341434746" duration="15567000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下">
       <created>1547100505261</created>
@@ -774,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547311792639</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3前后端联系">
+      <created>1547363340606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547363340606</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -810,7 +807,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57899000" />
+    <option name="totallyTimeSpent" value="57983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -861,7 +858,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试一下" />
     <MESSAGE value="前后端分离架构后的联调，mybatisPlus的集成" />
-    <option name="LAST_COMMIT_MESSAGE" value="前后端分离架构后的联调，mybatisPlus的集成" />
+    <MESSAGE value="3前后端联系" />
+    <option name="LAST_COMMIT_MESSAGE" value="3前后端联系" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
