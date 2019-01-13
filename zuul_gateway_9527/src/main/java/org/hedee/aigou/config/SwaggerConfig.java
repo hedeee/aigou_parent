@@ -21,9 +21,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("平台服务")
-                .description("平台服务接口文档说明")
-                .termsOfServiceUrl("http://localhost:8001")
+                .title("分布式购物系统")
+                .description("购物系统接口文档说明")
+                .termsOfServiceUrl("http://localhost:8081")
                 .contact(new Contact("hdtest", "", "hhhttddd@163.com"))
                 .version("1.0")
                 .build();

@@ -23,7 +23,9 @@ public class User extends Model<User> {
     private Long id;
     private String name;
 
-    public User(String name) {}
+    public User(String name) {
+        this.name=name;
+    }
     public User(){}
 
     public Long getId() {

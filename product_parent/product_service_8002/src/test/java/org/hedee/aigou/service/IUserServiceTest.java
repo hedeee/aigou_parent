@@ -22,9 +22,9 @@ public class IUserServiceTest {
     @Autowired
     private IUserService userService;
     @Test
-    public void testadd()throws Exception{
-        for(int i =0;i<10;i++)
-            userService.insert(new User("hfajsnf=="+i));
+        public void testadd()throws Exception{
+            for(int i =0;i<10;i++)
+                userService.insert(new User("hfajsnf=="+i));
 
     }
     @Test
@@ -39,10 +39,10 @@ public class IUserServiceTest {
     }
     @Test
     public void testupdate()throws Exception{
-        User user = userService.selectById(3L);
+        User user = userService.selectById(5L);
         user.setName("hhhhhhhhhhhhhhhhhhhhhhhhh-----");
         userService.updateById(user);
-        System.out.println(user.selectById(2L));
+        System.out.println(user.selectById(5L));
     }
     @Test
     public void testdel()throws Exception{
