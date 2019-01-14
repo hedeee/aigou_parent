@@ -1,9 +1,9 @@
-package cn.itsource.aigou.client;
+package org.hedee.aigou.client;
 
 import ${package.Entity}.${entity};
-import cn.itsource.aigou.query.${entity}Query;
-import cn.itsource.aigou.util.AjaxResult;
-import cn.itsource.aigou.util.PageList;
+import org.hedee.aigou.query.${entity}Query;
+import org.hedee.aigou.util.AjaxResult;
+import org.hedee.aigou.util.PageList;
 import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 

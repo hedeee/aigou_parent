@@ -2,9 +2,9 @@ package ${package.Controller};
 
 import ${package.Service}.${table.serviceName};
 import ${package.Entity}.${entity};
-import cn.itsource.aigou.query.${entity}Query;
-import cn.itsource.aigou.util.AjaxResult;
-import cn.itsource.aigou.util.PageList;
+import org.hedee.aigou.query.${entity}Query;
+import org.hedee.aigou.util.AjaxResult;
+import org.hedee.aigou.util.PageList;
 import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -30,10 +30,10 @@ public class ${entity}Controller {
             }else{
                 ${table.entityPath}Service.insert(${table.entityPath});
             }
-            return AjaxResult.me();
+            return AjaxResult.getAjaxResult();
         } catch (Exception e) {
             e.printStackTrace();
-            return AjaxResult.me().setMessage("保存对象失败！"+e.getMessage());
+            return AjaxResult.getAjaxResult().setMessage("保存对象失败！"+e.getMessage());
         }
     }
 
@@ -46,10 +46,10 @@ public class ${entity}Controller {
     public AjaxResult delete(@PathVariable("id") Long id){
         try {
             ${table.entityPath}Service.deleteById(id);
-            return AjaxResult.me();
+            return AjaxResult.getAjaxResult();
         } catch (Exception e) {
         e.printStackTrace();
-            return AjaxResult.me().setMessage("删除对象失败！"+e.getMessage());
+            return AjaxResult.getAjaxResult().setMessage("删除对象失败！"+e.getMessage());
         }
     }
 
