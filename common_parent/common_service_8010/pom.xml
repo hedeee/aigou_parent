@@ -3,36 +3,26 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>product_parent</artifactId>
+        <artifactId>common_parent</artifactId>
         <groupId>org.hedee.aigou</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>product_service_8002</artifactId>
+    <artifactId>common_service_8010</artifactId>
 
     <dependencies>
-        <!--springboot支持-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
-        <!--mybatis-plus支持-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>2.2.0</version>
+            <scope>test</scope>
         </dependency>
 
-        <!--数据库支持-->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
 
         <!--配置中心支持-->
         <dependency>
@@ -59,19 +49,19 @@
             <version>2.9.2</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.hedee.aigou</groupId>
-            <artifactId>product_interface</artifactId>
+            <artifactId>common_interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.46</version>
-        </dependency>
     </dependencies>
-
     <!--打包插件依赖-->
     <build>
         <plugins>
@@ -79,7 +69,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>org.hedee.ProductService_8002</mainClass>
+                    <mainClass>org.hedee.aigou.CommonServiceApplication_8010</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>

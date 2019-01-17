@@ -16,6 +16,7 @@
         <module>config_server_8848</module>
         <module>aigou_generate</module>
         <module>product_parent</module>
+        <module>common_parent</module>
     </modules>
 
     <properties>
