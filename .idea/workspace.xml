@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ff7da7-173a-418e-99fd-7dfdb91eda98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_fastdfs_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/common_interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/org/hedee/aigou/client/PageClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/org/hedee/aigou/client/PageListClientHystrixFallbackFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/org/hedee/aigou/client/RedisClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/org/hedee/aigou/client/RedisClientHystrixFallbackFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/org/hedee/aigou/util/FastDfsApiOpr.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/org/hedee/aigou/util/RedisJedisPoolUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_interface/src/main/java/org/hedee/aigou/util/VelocityUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_parent.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/common_service_8010.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/org/hedee/aigou/CommonServiceApplication_8010.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/org/hedee/aigou/config/Swagger2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/org/hedee/aigou/controller/FastDfsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/org/hedee/aigou/controller/RedisController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/java/org/hedee/aigou/controller/StaticPageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/resources/application_bak.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/common_service_8010/src/main/resources/fdfs_client.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common_parent/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/template/common-footer.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/template/common-header-top.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/template/common-header.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/template/common-link.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/template/common-nav.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/template/common-right-sidebar.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/template/home.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/resources/template/productType/product.type.vm" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_interface/pom.xml" afterPath="$PROJECT_DIR$/product_parent/product_interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_interface/product_interface.iml" afterPath="$PROJECT_DIR$/product_parent/product_interface/product_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/product_service_8002.iml" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/product_service_8002.iml" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/org/hedee/aigou/ProductService_8002.java" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/org/hedee/aigou/ProductService_8002.java" />
-      <change beforePath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/org/hedee/aigou/service/impl/ProductTypeServiceImpl.java" afterPath="$PROJECT_DIR$/product_parent/product_service_8002/src/main/java/org/hedee/aigou/service/impl/ProductTypeServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/DocumentationConfig.java" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/java/org/hedee/aigou/config/DocumentationConfig.java" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/zuul_gateway_9527/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/org/hedee/aigou/config/DocumentationConfig.class" afterPath="$PROJECT_DIR$/zuul_gateway_9527/target/classes/org/hedee/aigou/config/DocumentationConfig.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -937,7 +881,7 @@
       <workItem from="1547558286360" duration="9769000" />
       <workItem from="1547599679394" duration="17853000" />
       <workItem from="1547639961229" duration="25000" />
-      <workItem from="1547686519833" duration="17810000" />
+      <workItem from="1547686519833" duration="18304000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下">
       <created>1547100505261</created>
@@ -1016,7 +960,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547455345576</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="完善品牌增删改，完成redis缓存，完成页面静态化，完成fastDFS上传下载">
+      <created>1547713556685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547713556685</updated>
+    </task>
+    <task id="LOCAL-00013" summary="完善品牌增删改，完成redis缓存，完成页面静态化，完成fastDFS上传下载">
+      <created>1547713655916</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547713655916</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1052,7 +1010,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144236000" />
+    <option name="totallyTimeSpent" value="144730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1146,7 +1104,8 @@
     <MESSAGE value="前后端分离架构后的联调，mybatisPlus的集成" />
     <MESSAGE value="3前后端联系" />
     <MESSAGE value="完善商品品牌和类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善商品品牌和类型" />
+    <MESSAGE value="完善品牌增删改，完成redis缓存，完成页面静态化，完成fastDFS上传下载" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善品牌增删改，完成redis缓存，完成页面静态化，完成fastDFS上传下载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
