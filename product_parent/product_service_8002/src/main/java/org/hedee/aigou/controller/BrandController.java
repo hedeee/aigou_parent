@@ -33,7 +33,7 @@ public class BrandController {
             return AjaxResult.getAjaxResult();
         } catch (Exception e) {
             e.printStackTrace();
-            return AjaxResult.getAjaxResult().setMessage("保存对象失败！"+e.getMessage());
+            return AjaxResult.getAjaxResult().setSuccess(false).setMessage("保存对象失败！"+e.getMessage());
         }
     }
 

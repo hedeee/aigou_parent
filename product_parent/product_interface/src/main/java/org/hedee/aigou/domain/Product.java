@@ -5,7 +5,13 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
+import java.security.PrivateKey;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * <p>
@@ -13,7 +19,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author yhptest
- * @since 2019-01-13
+ * @since 2019-01-18
  */
 @TableName("t_product")
 public class Product extends Model<Product> {
@@ -41,6 +47,8 @@ public class Product extends Model<Product> {
      */
     @TableField("product_type_id")
     private Long productTypeId;
+    @TableField(exist = false)
+    private ProductType productType;
     /**
      * 上架时间
      */
@@ -51,6 +59,17 @@ public class Product extends Model<Product> {
     private Long offSaleTime;
     @TableField("brand_id")
     private Long brandId;
+
+    @TableField(exist = false)
+    private Brand brand;
+
+    //为了接收describtion和richContent两个字段的值
+    //初始不能为空
+    @TableField(exist = false)
+    private ProductExt productExt =new ProductExt();
+
+    @TableField("sku_template")
+    private String skuTemplate;
     /**
      * 状态
      */
@@ -86,6 +105,7 @@ public class Product extends Model<Product> {
     private Integer goodCommentCount;
     private Integer commonCommentCount;
     private Integer badCommentCount;
+    private String medias;
 
 
     public Long getId() {
@@ -151,7 +171,7 @@ public class Product extends Model<Product> {
     public void setOnSaleTime(Long onSaleTime) {
         this.onSaleTime = onSaleTime;
     }
-
+    @JsonFormat(pattern ="yyyy-MM-dd",timezone = "GMT+8")
     public Long getOffSaleTime() {
         return offSaleTime;
     }
@@ -159,7 +179,7 @@ public class Product extends Model<Product> {
     public void setOffSaleTime(Long offSaleTime) {
         this.offSaleTime = offSaleTime;
     }
-
+    @JsonFormat(pattern ="yyyy-MM-dd",timezone = "GMT+8")
     public Long getBrandId() {
         return brandId;
     }
@@ -256,6 +276,14 @@ public class Product extends Model<Product> {
         this.badCommentCount = badCommentCount;
     }
 
+    public String getMedias() {
+        return medias;
+    }
+
+    public void setMedias(String medias) {
+        this.medias = medias;
+    }
+
     @Override
     protected Serializable pkVal() {
         return this.id;
@@ -285,6 +313,41 @@ public class Product extends Model<Product> {
         ", goodCommentCount=" + goodCommentCount +
         ", commonCommentCount=" + commonCommentCount +
         ", badCommentCount=" + badCommentCount +
+        ", medias=" + medias +
         "}";
     }
+
+    public ProductType getProductType() {
+        return productType;
+    }
+
+    public void setProductType(ProductType productType) {
+        this.productType = productType;
+    }
+
+    public Brand getBrand() {
+        return brand;
+    }
+
+    public void setBrand(Brand brand) {
+        this.brand = brand;
+    }
+
+    public ProductExt getProductExt() {
+        return productExt;
+    }
+
+    public void setProductExt(ProductExt productExt) {
+        this.productExt = productExt;
+    }
+
+
+    public String getSkuTemplate() {
+        return skuTemplate;
+    }
+
+    public void setSkuTemplate(String skuTemplate) {
+        this.skuTemplate = skuTemplate;
+    }
+
 }

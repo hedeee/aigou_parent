@@ -1,6 +1,10 @@
 spring:
   profiles:
       active: dev
+  data:
+      elasticsearch:
+        cluster-name: elasticsearch
+        cluster-nodes: 127.0.0.1:9300 #9200是图形界面端,9300代码端
   cloud:
     config:
       name: application-product #github上面名称

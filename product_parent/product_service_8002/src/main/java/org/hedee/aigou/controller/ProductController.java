@@ -1,5 +1,6 @@
 package org.hedee.aigou.controller;
 
+import org.hedee.aigou.domain.Specification;
 import org.hedee.aigou.service.IProductService;
 import org.hedee.aigou.domain.Product;
 import org.hedee.aigou.query.ProductQuery;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/product")
@@ -33,7 +35,7 @@ public class ProductController {
             return AjaxResult.getAjaxResult();
         } catch (Exception e) {
             e.printStackTrace();
-            return AjaxResult.getAjaxResult().setMessage("保存对象失败！"+e.getMessage());
+            return AjaxResult.getAjaxResult().setSuccess(false).setMessage("保存对象失败！"+e.getMessage());
         }
     }
 
@@ -49,7 +51,7 @@ public class ProductController {
             return AjaxResult.getAjaxResult();
         } catch (Exception e) {
         e.printStackTrace();
-            return AjaxResult.getAjaxResult().setMessage("删除对象失败！"+e.getMessage());
+            return AjaxResult.getAjaxResult().setSuccess(false).setMessage("删除对象失败！"+e.getMessage());
         }
     }
 
@@ -67,7 +69,6 @@ public class ProductController {
     */
     @RequestMapping(value = "/list",method = RequestMethod.GET)
     public List<Product> list(){
-
         return productService.selectList(null);
     }
 
@@ -79,10 +80,35 @@ public class ProductController {
     * @return PageList 分页对象
     */
     @RequestMapping(value = "/json",method = RequestMethod.POST)
-    public PageList<Product> json(@RequestBody ProductQuery query)
-    {
-        Page<Product> page = new Page<Product>(query.getPage(),query.getRows());
-            page = productService.selectPage(page);
-            return new PageList<Product>(page.getTotal(),page.getRecords());
+    public PageList<Product> json(@RequestBody ProductQuery query) {
+            return productService.selectPageList(query);
+    }
+
+
+    @RequestMapping(value="/addViewProperties",method= RequestMethod.POST)
+    public AjaxResult save(@RequestBody Map<String,Object> params){
+        try {
+            Integer tmp = (Integer) params.get("productId"); //Integer
+            Long productId = Long.parseLong(tmp.toString());
+            List<Specification> specifications = (List<Specification>) params.get("specifications");
+            productService.addViewProperties(productId,specifications);
+            return AjaxResult.getAjaxResult();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.getAjaxResult().setSuccess(false).setMessage("保存显示属性失败！"+e.getMessage());
+        }
+    }
+    //商品上架
+    @RequestMapping(value="/onSale",method= RequestMethod.POST)
+    public AjaxResult onSale(@RequestBody Map<String,Object> params){
+        try {
+            String ids = (String) params.get("ids"); //Integer
+            Integer onSale = Integer.valueOf(params.get("onSale").toString());
+            productService.onSale(ids,onSale);
+            return AjaxResult.getAjaxResult();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.getAjaxResult().setSuccess(false).setMessage("商品上架失败！"+e.getMessage());
+        }
     }
 }

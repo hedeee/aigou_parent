@@ -70,8 +70,12 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.46</version>
         </dependency>
+        <dependency>
+            <groupId>org.hedee.aigou</groupId>
+            <artifactId>common_service_8010</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
-
     <!--打包插件依赖-->
     <build>
         <plugins>

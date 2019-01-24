@@ -8,7 +8,6 @@
     <file url="file://$PROJECT_DIR$/common_parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common_parent/common_interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common_parent/common_service_8010" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common_parent/common_services_8010" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_server_8848" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver_7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plat_parent" charset="UTF-8" />

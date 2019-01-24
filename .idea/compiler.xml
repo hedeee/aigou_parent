@@ -27,7 +27,6 @@
       <module name="common_interface" target="1.8" />
       <module name="common_parent" target="1.8" />
       <module name="common_service_8010" target="1.8" />
-      <module name="common_services_8010" target="1.8" />
       <module name="config_server_8848" target="1.8" />
       <module name="eurekaserver_7001" target="1.8" />
       <module name="plat_interface" target="1.8" />
